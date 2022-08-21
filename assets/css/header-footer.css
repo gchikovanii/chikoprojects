@@ -32,7 +32,7 @@ i {
 }
 
 .navbar-mainbg {
-    background-color: #5161ce;
+    background-color: #03a4ed;
     padding: 0px;
 }
 
@@ -128,7 +128,7 @@ i {
             width: 50px;
             height: 50px;
             border-radius: 50%;
-            background-color: #5161ce;
+            background-color: #03a4ed;
         }
 
     .hori-selector .right:before {
@@ -238,7 +238,7 @@ i {
 
 
 .footer-section {
-    background: #5161ce;
+    background: #03a4ed;
     position: relative;
     padding-bottom: -140px !important;
 }
@@ -304,7 +304,7 @@ i {
 }
 .re-style {
     text-decoration: none;
-    color:#38b000 !important;
+    color:black !important;
 }
 .re-a-color {
     margin-right: 5px;

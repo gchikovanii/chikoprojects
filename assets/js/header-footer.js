@@ -110,3 +110,4 @@ function topFunction() {
 function SendMail(){
 	window.open('mailto:gchikovanii25@gmail.com?subject=subject&body=body');
 }
+
