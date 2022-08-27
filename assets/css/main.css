@@ -54,6 +54,13 @@ figure, header, nav, section, article, aside, footer, figcaption {
 /* ---- .grid-item ---- */
 
 /* Scroll button */
+.hide-onSmall{
+  display: none !important;
+}
+.hide-onSmall-a{
+  display: none !important;
+}
+
 #myBtn {
   display: none; 
   position: fixed; 
@@ -1687,14 +1694,29 @@ responsive
   .main-home:after{
     display: none;
   }
-
-  .button-download{
-    margin-top: 30px !important;
+  .hide-onSmall{
+    display: flex !important;
+    justify-content: center !important;
+    margin-right: 30% !important;
+    margin-top: 10px !important;
     padding-left: 25px !important;
     padding-right: 25px !important;
     padding-top: 15px !important;
     padding-bottom: 15px !important;
-    background-color: #feb543 !important;
+  }
+  .small-resize{
+    display: none !important;
+  }
+  .button-download{
+    display: none !important;
+    /* display: flex !important;
+    justify-content: center !important;
+    margin-right: 25% !important;
+    margin-top: 30px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important; */
   }
 }
 
